@@ -54,27 +54,26 @@ public class SecondActivity extends AppCompatActivity {
 
                         resultvalue = String.valueOf(Integer.parseInt(val1.getText().toString()) +  Integer.parseInt(val2.getText().toString()));
 
-                        reultTxt.setText(resultvalue);
+                        reultTxt.setText(val1.getText().toString()+" + "+val2.getText().toString()+" = "+resultvalue);
 
                     }
                     else if(finalY == sub){
 
                         resultvalue = String.valueOf(Integer.parseInt(val1.getText().toString()) -  Integer.parseInt(val2.getText().toString()));
 
-                        reultTxt.setText(resultvalue);
+                        reultTxt.setText(val1.getText().toString()+" - "+val2.getText().toString()+" = "+resultvalue);
                     }
                     else if(finalY == mul){
 
                         resultvalue = String.valueOf(Integer.parseInt(val1.getText().toString()) *  Integer.parseInt(val2.getText().toString()));
 
-                        reultTxt.setText(resultvalue);
+                        reultTxt.setText(val1.getText().toString()+" * "+val2.getText().toString()+" = "+resultvalue);
 
                     }
                     else if(finalY == div){
 
                         resultvalue = String.valueOf(Integer.parseInt(val1.getText().toString()) /  Integer.parseInt(val2.getText().toString()));
-
-                        reultTxt.setText(resultvalue);
+                        reultTxt.setText(val1.getText().toString()+" / "+val2.getText().toString()+" = "+resultvalue);
 
                     }
                 }
